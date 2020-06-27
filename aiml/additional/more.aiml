@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Dr. Wallace"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>WHAT IS TALF</pattern>
+<template>
+TALF (The Asian Lenses Forum) is a first of a kind initiative taken by NIIT University to sensitize the young generation to their heritage. 
+The forum held its 3rd Annual Conference on 23rd September 2016 at Russian Centre for Science and Culture, Delhi.
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE EVENTS HELD IN NU</pattern>
+<template>
+click on this link to know more about events held in NU.
+https://www.niituniversity.in/campus/events
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE EVENTS HELD IN NU</pattern>
+<template>
+click on this link to know more about events held in NU.
+https://www.niituniversity.in/campus/events
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE OTHER SERVICES THAT NU HAS TO OFFER</pattern>
+<template>The NU Campus has a cafeteria and a tuck shop to cater to varied tastes of students and staff. A unique students venture called ‘Tera Mera Point’ (TMP) serves as the night café for the students who wish to replenish themselves while studying at late night hoursThe NU Campus has a cafeteria and a tuck shop to cater to varied tastes of students and staff. A unique students venture called ‘Tera Mera Point’ (TMP) 
+serves as the night café for the students who wish to replenish themselves while studying at late night hours</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE TECHNOLOGICAL INFRASTRUCTURE IN NU</pattern>
+<template>Click on this link to know about the technological infrastructure in NU
+https://www.niituniversity.in/campus/facilities/technology</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE LIBRARY TIMINGS</pattern>
+<template>Mon to Fri: 09:30 AM to 08:00 PM and 08:45 PM to 00:00 Midnight
+Saturday: 09:30 AM to 07:00 PM; Sunday : 09:30 AM to 05:30 PM 
+Circulation: 10:00 AM to 07:00 PM (Mon–Sat), 10:00 AM to 05:30 PM (Sun)
+
+Extended hours during Examinations:-
+Saturdays - 09:30 AM to 10:00 PM
+Sundays - 09:30 AM to 08:00 PM (Lunch Time 01:00 PM to 01:45 PM)
+The LIRC remains closed on all University holidays.   </template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE HOSTELS IN NU</pattern>
+<template>Click on this link to know more about the hostels in NU
+https://www.niituniversity.in/campus/facilities/hostel</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE DINING FACILITIES IN NU</pattern>
+<template>The three spacious and airy dining halls are where students and faculty have their food together. 
+Breakfast, lunch, a high tea and dinner are served here. 
+Food served is primarily vegetarian, with eggs being served on some days.
+The menu is decided by the Mess Committee comprising mainly of students and a few faculty members. 
+Parents and invited guests too have their meals here.</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT SPORTS FACILITIES IN NU</pattern>
+<template>Click on this link to know about the sports facilities in NU
+https://www.niituniversity.in/campus/facilities/sports</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE MEDICAL FACILITIES IN NU</pattern>
+<template>The NU campus is equipped to handle common health problems needing medical attention as well as medical emergencies.
+The Health Centre on the campus is manned by a Medical Assistant round-the-clock. 
+A medical doctor is available for two hours in a day on all working days.
+In case of emergency a student is promptly evacuated to Kailash Hospital in the Emergency Vehicle 
+and is accompanied by a Hostel Warden/University Staff.</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT THE PLACEMENTS IN NU</pattern>
+<template>Click on this link to know about industrial practice and placements in NU
+https://www.niituniversity.in/placements</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT RESEARCH AREAS THAT NU HAS TO OFFER</pattern>
+<template>Click on this link to know about research areas offered by NU
+https://www.niituniversity.in/research/research-areas</template>
+</category>
+
+
+</aiml>

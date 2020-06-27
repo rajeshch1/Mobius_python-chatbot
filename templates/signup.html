@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/login1.css') }}">
+		<script type="text/javascript">
+  function populate(s1,s2){
+		var s1 = document.getElementById(s1);
+		var s2 = document.getElementById(s2);
+		s2.innerHTML = "";			
+		
+		if(s1.value == "B.tech"){
+			var optionArray = ["cse|CSE","ece |ECE","bio Tech|BioTech"];
+		
+		}else if(s1.value == "MBA"){
+			var optionArray = ["digital marketing|Digital Marketing","business analytics|Business Analytics"," banking|Banking"," banking technology| Banking technology","marketing|Marketing","hrm|HRM","finance|Finance"];
+		}else if(s1.value =="M.tech"){
+		
+			var optionArray = ["educational Technology|Educational Technology","gis|GIS"];
+		}
+		for(var option in optionArray)
+		{
+			var pair = optionArray[option].split("|");
+			var newOption = document.createElement("option");
+			 newOption.value = pair[0];
+			 newOption.innerHTML = pair[1];
+			 s2.options.add(newOption);			 
+		
+		}
+		}
+</script>
+</head>
+
+<body  >
+<div class="container">
+	<div class="row" >
+		
+	</div>
+</div>
+<br>
+<br>
+<div class="container">
+<div class="row">
+<div class="box12">
+<div class="form-body1" >
+	<ul class="nav nav-tabs final-login">
+		<li ><a data-toggle="tab" href="login">Log In</a></li>
+		<li class="active" ><a data-toggle="tab" href="./">Sign Up</a></li>
+	</ul>
+	<div class="tab-content">
+	<div id="#sectionB" class="tab-pane fade in active">
+			<div class="innter-form">
+			<form  action="/signup" method="post" class="sa-innate-form">
+			
+			<input type="text" name="name" placeholder="Name">
+			
+			<input type="text" name="Email" placeholder="Email Address">
+			<input type ="password" name ="pass" placeholder ="PassWord" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required />
+			<input type="text" name="Enroll" placeholder="Enrollment Number"required pattern=[A-Za-z0-9]{13} maxlength="13" >
+			<input type="text" name="Contact" placeholder="Contact no" required pattern=[0-9]{10} maxlength="10"  >
+			<select id="slct1" name="slct1" onchange="populate(this.id,'slct2')" required>
+			<option value="" disabled selected>Course</option>
+			<option value="B.tech">B.tech</option>
+			<option value="MBA">MBA</option>
+			<option value="M.tech">M.tech</option>
+			</select>
+	
+			 <select id="slct2" name="slct2">
+			<option value="" disabled selected>Stream</option></select>
+			
+			
+			<select id="slct3" name="year" required>
+			<option value="" disabled selected>Year</option>
+			<option value="2014-2018">2014-2018</option>
+			<option value="2015-2019">2015-2019</option>
+			<option value="2016-2020">2016-2020</option>
+			<option value="2017-2021">2017-2021</option>
+			
+			</select>
+		   
+			<button type="submit">Sign Up</button>
+			<p>By clicking Sign up, you agree to Mobius User Agreement, Privacy Policy, and Cookie Policy.</p>
+			</form>
+			</div>
+ 
+		   
+			</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</body>
+	</html>

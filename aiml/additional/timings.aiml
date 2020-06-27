@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Dr. Wallace"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>WHAT ARE THE BREAKFAST TIMINGS</pattern>
+<template>
+the breakfast timings are from 7:30 am to 9:15 am on weekdays including saturday
+it's from 9:00 to 10:00 on sundays
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE LUNCH TIMINGS</pattern>
+<template>
+the lunch timings are from 12:30 to 2:30 
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE SNACKS TIMINGS</pattern>
+<template>
+the snack timings are from 5:00 pm to 6:30 pm
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DINNER TIMINGS</pattern>
+<template>
+dinner timings are from 8:00 pm to 9:45 pm
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE TMP TIMINGS</pattern>
+<template>
+tmp timings are from 10:30 pm to 5:00 am
+</template>
+</category>
+
+<category>
+<pattern>GIVE ME THE TMP MENU</pattern>
+<template>
+Non-Veg: Bread Omlet,Omlet,Cheese Omlet,Chicken cutlet,chicken momos,Chicken sandwich,seek kebab 
+Veg : Chilli potato,veg roll,veg momos
+</template>
+</category>
+
+<category>
+<pattern>DINNER TIMINGS</pattern>
+<template>
+dinner timings are from 8:00 pm to 10:00 pm
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Group 16"/>
+<meta name="language" content="en"/>
+
+
+<category>
+<pattern>WHO IS ABDUL MAZID</pattern>
+<template> He is an Assistant Professor who teaches Computer Network,Data Structures, C, C++ ,His email is Abdul.Mazid@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHO IS AMIT KUMAR</pattern>
+<template> He is an Assistant Professor who teaches Data Structure, Algorithms, Theory of Computation, Software Engineering, Information Retrieval and Web Search, Operating System.His email is  Amit.Kumar@niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHO IS ANSHIMA SRIVASTAVA</pattern>
+<template> He is an Assistant Professor who teaches Business/Technical Communication and Soft Skills, English Literature.Her email is  Anshima.Srivastava@niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHO IS ARUN KUMAR</pattern>
+<template>He is an Assistant Professor who teaches Banking, Credit Appraisal, Risk Management, e-Governance & other banking related subjects.His email is Arunk@niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHO IS JETENDRA JOSHI</pattern>
+<template> He is an Assistant Professor who teaches Analog and Digital communication, Wireless communication, Microcontrollers and Communication Network.His email is  Jetendra.joshi@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHO IS KUMAR NITESH</pattern>
+<template> He is an Assistant Professor who teaches  Algorithms Design, Data Structure, Networking..His email is  Kumar.nitesh@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHO IS GANAPATHIRAO</pattern>
+<template> He is an Assistant Professor  who teaches Calculus, Algebra & Differential Equations, Mathematics-I & II, Transforms and Partial Differential Equations...His email is   G.Maradana@niituniversity.in
+</template>
+</category>
+
+</aiml>

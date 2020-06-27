@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Group 16"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>WHAT ARE THE VARIOUS PROGRAMMES IN OUR UNIVERSITY</pattern>
+<template>B.Tech, M.Tech and MBA</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE VARIOUS STREAMS IN BTECH</pattern>
+<template>CSE, ECE and BioTech</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE VARIOUS COURSES TAUGHT IN CSE</pattern>
+<template>C Programming, C++, Data Structures, JAVA, Operating Systems, DBMS, Python, Calculus, Theory of computation, Computer Architecture  and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE VARIOUS COURSES TAUGHT IN ECE</pattern>
+<template>C Programming, Wireless communication, Digital signal processing, Analog to digital communication, Integrated electronics, computer architecture, optical engineering and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT PROGRAMMES IN OUR UNIVERSITY</pattern>
+<template>B.Tech, M.Tech and MBA</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT STREAMS IN BTECH</pattern>
+<template>CSE, ECE and BioTech</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT COURSES TAUGHT IN CSE</pattern>
+<template>C Programming, C++, Data Structures, JAVA, Operating Systems, DBMS, Python, Calculus, Theory of computation, Computer Architecture  and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT COURSES TAUGHT IN ECE</pattern>
+<template>C Programming, Wireless communication, Digital signal processing, Analog to digital communication, Integrated electronics, computer architecture, optical engineering and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+
+<category>
+<pattern>WHAT PROGRAMMES ARE OFFERED BY OUR UNIVERSITY</pattern>
+<template>B.Tech, M.Tech and MBA</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT STREAMS IN BTECH</pattern>
+<template>CSE, ECE and BioTech</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT COURSES TAUGHT IN CSE</pattern>
+<template>C Programming, C++, Data Structures, JAVA, Operating Systems, DBMS, Python, Calculus, Theory of computation, Computer Architecture  and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT COURSES TAUGHT IN ECE</pattern>
+<template>C Programming, Wireless communication, Digital signal processing, Analog to digital communication, Integrated electronics, computer architecture, optical engineering and many other courses for more details refer www.moodle.niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT SPECIALIZATIONS IN CSE</pattern>
+<template>Artificial Intelligence, Big Data, Cyber Security and Data Science</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE VARIOUS SPECIALIZATIONS IN CSE</pattern>
+<template>Artificial Intelligence, Big Data, Cyber Security and Data Science</template>
+</category>
+
+
+<category>
+   <pattern>DO YOU KNOW WHAT * ARE?</pattern>
+   
+   <template>
+      <srai>WHAT ARE <star/></srai>
+   </template>
+   
+</category>
+
+
+</aiml>

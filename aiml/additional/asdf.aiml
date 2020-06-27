@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Group 16"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>WHO IS KUMAR NITESH</pattern>
+
+<template>He is an Assistant Professor who teaches  Algorithms Design, Data Structure, Networking.His email is  Kumar.nitesh@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS GANAPATHIRAO</pattern>
+
+<template>He is an Assistant Professor  who teaches Calculus, Algebra and Differential Equations, Mathematics-I and II, Transforms and Partial Differential Equations.His email is   G.Maradana@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS AKHLESH AGARWAL</pattern>
+
+<template>He is an Associate Professor on Technology based teaching  learning processes. email is Akhlesh.Agarwal@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS ARIJIT KARATI</pattern>
+
+<template>He is an Associate Professor who teaches Cryptography, Algorithms, Data Structures and received his Ph.D. degree in the field of cryptographic security from the Department of Computer Science and Engineering.His email is  Arijit.Karati@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS GURENDRA NATH BHARDWAJ</pattern> 
+
+<template>He is an Associate Professor who teaches Financial Management, Taxation, Financial System and Market and received his Ph. D. titled “Role of NABARD in the Development of Rural Non Farm Sector in Uttar Pradesh”, from Department of Applied Economics, University of Lucknow.His email is Gurendra.Bhardwaj@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS MANOJ KUMAR</pattern> 
+
+<template>He is an Associate Professor who teaches Programming Languages, Data Structures, Computer Algorithms, Theory of Computation, Discrete Mathematics, Cryptography, Network Security, Linux, Shell Scripting  .His email is  Manoj.Kumar@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS  NAVIN KAPUR</pattern> 
+
+<template>He is an Associate Professor who teaches Quality  and Environment Management  Systems — ISO 9001 / 14001 / TS 16949, Six  Sigma, Lean  Manufacturing, Eco  Design  projects, conducting  Training  / HRD programmes.His email is  Naveen.Kapur@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS NEHA TIWARI</pattern> 
+
+<template>She is an Associate Professor who teaches Digital Communications, Antenna and Wave Propagations, Television Engineering, Radar Engineering, Basic Electronics, Optical Communication, Information Theory and Coding.Her email is Neha.Tiwari@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS PARIMAL V MANDKE</pattern> 
+
+<template>She  is currently the Vice President and Dean (Academics) at NIIT University.With formal qualifications of MSc (Bombay University), MSc Tech (BITS, Pilani) and PhD (BITS, Pilani), her experience spans over 35 years </template>
+</category>
+
+<category>
+<pattern>WHO IS PRAGYA VERMA </pattern> 
+
+<template>She is an Associate Professor who teaches Artificial Intelligence, Computer Architecture .Her email is pragya.verma@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS PROSENJIT GUPTA</pattern>
+
+<template>He is an Area Director, Computer Science and Engineering and teaches Algorithms, Data Structures, Computational Geometry, Discrete Mathematics, Theory of Computation, VLSI Design Automation, Web Intelligence.  .His email is Prosenjit.Gupta@niituniversity.in  </template>
+</category>
+
+<category>
+<pattern>WHO IS RAJ KUMAR KOVID</pattern> 
+
+<template>He is an Associate Professor who teaches Corporate Finance and Accounting, Mergers and Acquisitions, Corporate Governance and CSR, Corporate Strategy .His email is Raj.Kovid@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS SHWETA  MALWE</pattern>
+
+<template>She is an Associate Professor who teaches Computer Networks, Data Structures, Internet Technology, Wireless Communications .Her email is shweta.malve26@gmail.com </template>
+</category>
+
+<category>
+<pattern>WHO IS SIDDHARTHA KHARE</pattern> 
+
+<template>He is an Associate Professor who teaches GIS Programming, Remote Sensing and Digital Image Processing .His email is  Siddhartha.khare@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS SUNIL KHANNA</pattern>
+
+<template>He is a Professor who teaches Microbiology, Molecular Biology, Environmental Sciences, Recombinant DNA Technology. His email is 	Sunil.Khanna@niituniversity.in </template>
+</category>
+
+<category>
+<pattern>WHO IS SUPRATIK BANERJEE</pattern> 
+
+<template>He is an Associate Professor who teaches Networks, Operating Systems, Programming. </template>
+</category>
+
+
+</aiml>

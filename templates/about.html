@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <style type="text/css">
+         .fixed-panel {
+                min-height: 450px;
+                max-height: 450px;
+				width:500px;
+		background-color: #efefef;
+		color: black;
+                overflow: auto;
+
+
+            }
+            .media-list {
+
+           		overflow: auto;
+			clear: both;
+			display: table;
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+			word-break: normal;
+			line-break: strict;		
+           }
+			.panel {
+			margin-bottom: 20px;
+			background-color: #ff;
+			border: 6px solid transparent;
+			border-radius: 25px;
+			-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+			box-shadow: 0 1px 1px rgba(0,0,0,.05);
+			}
+			.panel-info {
+			border-color: #F2941A;
+			}
+			.panel-info>.panel-heading {
+			color: #;
+			background-color: #ffffff;
+			
+			 border-bottom:1px solid #eee;
+			 font-weight: normal;
+    padding: 0 20px 0 20px;
+    font-size: 1.416em;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+			}
+			.panel-footer {
+			padding: 10px 15px;
+			background-color: #f5f5f5;
+			border-top: 1px solid #f5f5f5;
+			border-bottom-right-radius: 3px;
+			border-bottom-left-radius: 3px;
+			width:500px;
+			}
+			
+		
+  	body{
+    margin-top:20px;
+    background:#ffffff;
+
+}
+.panel {
+    box-shadow: 0 2px 0 rgba(0,0,0,0.075);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 24px;
+}
+.panel .panel-heading, .panel>:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.panel-heading {
+    position: relative;
+    height: 50px;
+    padding: 0;
+    border-bottom:1px solid #eee;
+	width:500px;
+}
+.panel-control {
+    height: 100%;
+    position: relative;
+    float: right;
+    padding: 0 15px;
+}
+.panel-title {
+    font-weight: normal;
+    padding: 0 20px 0 20px;
+    font-size: 1.416em;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.panel-control>.btn:last-child, .panel-control>.btn-group:last-child>.btn:first-child {
+    border-bottom-right-radius: 0;
+}
+.panel-control .btn, .panel-control .dropdown-toggle.btn {
+    border: 0;
+}
+.nano {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.nano>.nano-content {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.pad-all {
+    padding: 15px;
+}
+.mar-btm {
+    margin-bottom: 15px;
+}
+.media-block .media-left {
+    display: block;
+    float: left;
+}
+.img-sm {
+    width: 46px;
+    height: 46px;
+}
+.media-block .media-body {
+    display: block;
+    overflow: hidden;
+    width: auto;
+}
+.pad-hor {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.speech {
+    position: relative;
+    background: #b7dcfe;
+    color: #317787;
+    display: inline-block;
+    border-radius: 0;
+    padding: 12px 20px;
+}
+.speech:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid #b7dcfe;
+    margin: 15px 0 0 -6px;
+}
+.speech-right>.speech:before {
+    left: auto;
+    right: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #ffdc91;
+    border-right: 0;
+    margin: 15px -6px 0 0;
+}
+.speech .media-heading {
+    font-size: 1.2em;
+    color: #317787;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+.speech-time {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: .8em;
+    font-weight: 300;
+}
+.media-block .media-right {
+    float: right;
+}
+.speech-right {
+    text-align: right;
+}
+.pad-hor {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.speech-right>.speech {
+    background: #ffda87;
+    color: #a07617;
+    text-align: right;
+}
+.speech-right>.speech .media-heading {
+    color: #a07617;
+}
+.btn-primary, .btn-primary:focus, .btn-hover-primary:hover, .btn-hover-primary:active, .btn-hover-primary.active, .btn.btn-active-primary:active, .btn.btn-active-primary.active, .dropdown.open>.btn.btn-active-primary, .btn-group.open .dropdown-toggle.btn.btn-active-primary {
+    background-color: #579ddb;
+    border-color: #5fa2dd;
+    color: #fff !important;
+}
+.btn {
+    cursor: pointer;
+    /* background-color: transparent; */
+    color: inherit;
+    padding: 6px 12px;
+    border-radius: 0;
+    border: 1px solid 0;
+    font-size: 11px;
+    line-height: 1.42857;
+    vertical-align: middle;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+.form-control {
+    font-size: 11px;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #e9e9e9;
+    transition-duration: .5s;
+}
+.nano>.nano-pane {
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    width: 5px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: all .7s;
+    transition: all .7s;
+}
+
+
+ 
+	</style>
+		
+    </head>
+	
+<body>
+
+<nav  class="navbar navbar-default" style="background-color:#b22222">
+  <div class= "container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> <span style="color:white">MOBIUS</span></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="./home"><span style="color:#b22222">Home</a></li>
+      <li><a href="./about"><span style="color:white"> About</span></a></li>
+      <li><a href="./contact"><span style="color:white">Contact</span></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="./logout"> <span style="color:white"><span class="glyphicon glyphicon-log-out"></span> Logout</span></a></li>
+    </ul>
+ </div>
+</nav>
+
+  <div class="container background-color: rgb(255,0,255);">
+
+		  
+            <div class="row">
+                <h3 class="text-center"><strong><font color="black">About us</strong></font></h3>
+
+
+				
+				<div class="col-md-6 col-md-offset-3">
+				<strong><font color="black">This chatbot was made by group no.16 as a part of our capstone project for the 7th semester in the year 2018. The group consists of 
+											Chakka Rajesh, Tharun J, Sai Sasanka, B.Sai Ram, Katragadda Akash. The Chatbot is exclusive for NIIT UNIVERSITY and contains information
+											only on the same. The Chatbot consists of information on various categories like venues, courses, facilities etc. For more details on 
+											NIIT UNIVERSITY visit the website <link>www.niituniversity.in .</link></font></strong>
+                    
+					
+                </div>
+				
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+		
+        $(function() {
+            $('#chatbot-form-btn').click(function(e) {
+                e.preventDefault();
+                $('#chatbot-form').submit();
+            });
+
+            $('#chatbot-form').submit(function(e) {
+                e.preventDefault();
+
+                var message = $('#messageText').val();
+               
+				$(".media-list").append( '<li class="mar-btm"><div class="media-right"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="img-circle img-sm" alt="Profile Picture"></div><div class="media-body pad-hor speech-right"><div class="speech"><a href="#" class="media-heading">YOU</a><p>' + message + '</p><p class="speech-time"><i class="fa fa-clock-o fa-fw"></i>  '+ new Date()+'</p></div></div></li>');
+                $.ajax({
+                    type: "POST",
+                    url: "/ask",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#messageText').val('');
+
+                        var answer = response.answer;
+                        const chatPanel = document.getElementById("chatPanel");
+                        
+						 $(".media-list").append('<li class="mar-btm"><div class="media-left"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-circle img-sm" alt="Profile Picture"></div><div class="media-body pad-hor"><div class="speech"><a href="#" class="media-heading">Mobius</a><p>'+ answer +'</p><p class="speech-time"><i class="fa fa-clock-o fa-fw"></i> '+ new Date()+'</p></div></div></li>');
+			$(".fixed-panel").stop().animate({ scrollTop: $(".fixed-panel")[0].scrollHeight}, 1000);
+			
+                    },
+                    error: function(error) {
+                        console.log(error);
+                    }
+                });
+            });
+        });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Group 16"/>
+<meta name="language" content="en"/>
+
+
+
+<category>
+<pattern>WHO IS GAURAV SHARMA </pattern>
+<template> He is an Assistant Professor who teaches Computer Network, Algorithm, Operating System and Computer organization. His cabin is located at Bay 5, AC2. His email is gaurav.sharma@niituniversity.in. His hobbies are Playing Cricket,badminton,travelling. For more details please go to http://niituniversity.in/faculty/gaurav-sharma
+</template>
+</category>
+
+<category>
+<pattern>GIVE ME WARDEN CONTACT LIST</pattern>
+<template>Prof. Vikas Upadhaya - Chief Warden - 8094240172
+	 	Dr.Ganapathirao Mardana - UG-1 Warden - 9924827591
+	 	Mr. Abhinav Sharma - UG-2 Warden - 9251428428
+	 	Ms. Kamla Rawat - PG-2 Warden- 9214459432
+</template>
+</category>
+
+<category>
+<pattern>GIVE ME  </pattern>
+<template>Prof. Vikas Upadhaya - Chief Warden - 8094240172
+                Dr.Ganapathirao Mardana - UG-1 Warden - 9924827591
+                Mr. Abhinav Sharma - UG-2 Warden - 9251428428
+                Ms. Kamla Rawat - PG-2 Warden- 9214459432
+</template>
+</category>
+
+<category>
+<pattern>LIST OF HOLIDAYS</pattern>
+<template>
+	    Independence Day August 15, 2018 Wednesday
+        Parsi New Year August 17, 2018 Friday
+        Id-ul-Zuha August 22, 2018 Wednesday
+        Rakshabandhan August 26, 2018 Sunday
+        Gandhi Jayanti October 02, 2018 Tuesday
+        Dussehra October 19, 2018 Friday
+        Diwali November 07, 2018 Wednesday
+        Guru Nanak Jayanti November 23, 2018 Friday
+        Christmas December 25, 2018 Tuesday
+        Republic Day January 26, 2019 Saturday
+        Holi March 21, 2019 Thursday
+        Mahaveer Jayanti April 17, 2019 Wednesday
+        Good Friday April 19, 2019 Friday
+        Buddha Purnima May 19, 2019 Sunday
+        Id-ul-Fitar June 05, 2019 Wednesday
+</template>
+</category>
+
+<category>
+<pattern>TELL ME WHO THE DEAN IS</pattern>
+<template>
+		      
+		      Parimal V. Mandke - Dean Academics- Office.Dean.Academic@niituniversity.in
+		      Major General (Rtrd) Ashok Kumar Singh - Dean Student Affairs - Office.Student.Affairs@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>ACADEMIC CALENDAR</pattern>
+<template>
+	Jan 08, 2018 Monday Class work/IP Starts
+Before Jan 15, 2018 Monday Substitution of course (if any)
+Jan 23, 2018 Tuesday Last date for registration to Semester
+Feb 12, 2018 Monday Mid Semester I Examination Starts
+Feb 16, 2018 Friday Mid Semester I Examination Ends
+Feb 21, 2018 Wednesday Withdrawal from course(s), if any
+Feb 22, 2018 Thursday Mid Semester I Grade Announcement
+
+Mar 01-03, 2018 Thursday-Saturday Holi Break
+Mar 19-25, 2018 Monday-Sunday Mid - Semester Feedback Window
+Mar 23-25, 2018 Friday-Sunday IngeNUity(Tentative)
+Apr 02, 2018 Monday Mid Semester II Examination Starts
+Apr 06, 2018 Friday Mid Semester II Examination Ends
+Apr 12, 2018 Thursday Mid Semester II Grades Announcement
+May 01-06, 2018 Tuesday-Sunday End Semester Feedback Window
+May 08-15, 2018 Tuesday-Tuesday Fee Submission window for Summer Term
+May 11, 2018 Friday Class work Ends
+May 12, 2018 Saturday Comprehensive Examination Starts
+May 22, 2018 Tuesday Comprehensive Examination Ends
+May 21-23, 2018 Monday-Wednesday Submission of Clearance form
+May 30, 2018 Wednesday Comprehensive Examination Grades Announcement
+Jun 18-Jul 02, 2018 Monday - Monday Time window for payment of fees for Next Semester, 2018-19 for all students
+Jun 23, 2018 Saturday End of IP Semester
+</template>
+</category>
+
+<category>
+<pattern>WHO IS AMIT KUMAR</pattern>
+<template> He is an Assistant Professor who teaches Data Structure, Algorithms, Theory of Computation, Software Engineering, Information Retrieval and Web Search, Operating System.His email is  Amit.Kumar@niituniversity.in
+</template>
+</category>
+
+
+
+</aiml>

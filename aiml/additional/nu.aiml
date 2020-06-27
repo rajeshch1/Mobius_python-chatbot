@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="author" content="Group 16"/>
+<meta name="language" content="en"/>
+
+
+
+<category>
+<pattern>WHO IS GAURAV SHARMA </pattern>
+<template> He is an Assistant Professor who teaches Computer Network, Algorithm, Operating System and Computer organization. His cabin is located at Bay 5, AC2. His email is gaurav.sharma@niituniversity.in.  For more details please go to http://niituniversity.in/faculty/gaurav-sharma 
+</template>
+</category>
+
+<category>
+<pattern>GIVE ME WARDEN CONTACT LIST</pattern>
+<template>Prof. Vikas Upadhaya - Chief Warden - 8094240172
+	 	Dr.Ganapathirao Mardana - UG-1 Warden - 9924827591
+	 	Mr. Abhinav Sharma - UG-2 Warden - 9251428428`
+	 	Ms. Kamla Rawat - PG-2 Warden- 9214459432
+</template>
+</category>
+
+<category>
+<pattern>Emergency</pattern>
+<template>Prof. Vikas Upadhaya - Chief Warden - 8094240172
+                Dr.Ganapathirao Mardana - UG-1 Warden - 9924827591
+                Mr. Abhinav Sharma - UG-2 Warden - 9251428428
+                Ms. Kamla Rawat - PG-2 Warden- 9214459432
+                You could also rush to the security room anytime of the day
+</template>
+</category>
+
+<category>
+<pattern>LIST OF HOLIDAYS</pattern>
+<template>
+	    Independence Day August 15, 2018 Wednesday
+        Parsi New Year August 17, 2018 Friday
+        Id-ul-Zuha August 22, 2018 Wednesday
+        Rakshabandhan August 26, 2018 Sunday
+        Gandhi Jayanti October 02, 2018 Tuesday
+        Dussehra October 19, 2018 Friday
+        Diwali November 07, 2018 Wednesday
+        Guru Nanak Jayanti November 23, 2018 Friday
+        Christmas December 25, 2018 Tuesday
+        Republic Day January 26, 2019 Saturday
+        Holi March 21, 2019 Thursday
+        Mahaveer Jayanti April 17, 2019 Wednesday
+        Good Friday April 19, 2019 Friday
+        Buddha Purnima May 19, 2019 Sunday
+        Id-ul-Fitar June 05, 2019 Wednesday
+</template>
+</category>
+
+<category>
+<pattern>TELL ME WHO THE DEAN IS</pattern>
+<template>
+		      
+		      Parimal V. Mandke - Dean Academics- Office.Dean.Academic@niituniversity.in
+		      Major General (Rtrd) Ashok Kumar Singh - Dean Student Affairs - Office.Student.Affairs@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>ACADEMIC CALENDAR</pattern>
+<template>
+	Jan 08, 2018 Monday Class work/IP Starts
+Before Jan 15, 2018 Monday Substitution of course (if any)
+Jan 23, 2018 Tuesday Last date for registration to Semester
+Feb 12, 2018 Monday Mid Semester I Examination Starts
+Feb 16, 2018 Friday Mid Semester I Examination Ends
+Feb 21, 2018 Wednesday Withdrawal from course(s), if any
+Feb 22, 2018 Thursday Mid Semester I Grade Announcement
+
+Mar 01-03, 2018 Thursday-Saturday Holi Break
+Mar 19-25, 2018 Monday-Sunday Mid - Semester Feedback Window
+Mar 23-25, 2018 Friday-Sunday IngeNUity(Tentative)
+Apr 02, 2018 Monday Mid Semester II Examination Starts
+Apr 06, 2018 Friday Mid Semester II Examination Ends
+Apr 12, 2018 Thursday Mid Semester II Grades Announcement
+May 01-06, 2018 Tuesday-Sunday End Semester Feedback Window
+May 08-15, 2018 Tuesday-Tuesday Fee Submission window for Summer Term
+May 11, 2018 Friday Class work Ends
+May 12, 2018 Saturday Comprehensive Examination Starts
+May 22, 2018 Tuesday Comprehensive Examination Ends
+May 21-23, 2018 Monday-Wednesday Submission of Clearance form
+May 30, 2018 Wednesday Comprehensive Examination Grades Announcement
+Jun 18-Jul 02, 2018 Monday - Monday Time window for payment of fees for Next Semester, 2018-19 for all students
+Jun 23, 2018 Saturday End of IP Semester
+</template>
+</category>
+
+<category>
+<pattern>WHO IS AMIT KUMAR</pattern>
+<template>He is an Assistant Professor who teaches Data Structure, Algorithms, Theory of Computation, Software Engineering, Information Retrieval and Web Search, Operating System.His email is  Amit.Kumar@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT HOUSES IN OUR UNIVERSITY</pattern>
+<template>
+1) Orange
+2) White
+3) Green
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THE CAPTAIN OF ORANGE HOUSE</pattern>
+<template>
+Rahul Kumar for boys.
+Payanshi Jain for girls.
+</template>
+</category>
+
+<category>
+<pattern>ORANGE HOUSE</pattern>
+<template>
+Rahul Kumar for boys.
+Payanshi Jain for girls.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THE CAPTAIN OF WHITE HOUSE</pattern>
+<template>
+Mayank Bhotika for boys.
+Deepti Singh for girls.
+</template>
+</category>
+
+<category>
+<pattern>WHITE HOUSE CAPTAIN</pattern>
+<template>
+Mayank Bhotika for boys.
+Deepti Singh for girls.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS ANSHIMA SRIVASTAVA</pattern>
+<template> She is an Assistant Professor who teaches Business/Technical Communication and Soft Skills, English Literature.Her email is  Anshima.Srivastava@niituniversity.in</template>
+</category>
+
+<category>
+<pattern>WHO IS THE CAPTAIN OF GREEN HOUSE</pattern>
+<template>
+Anmol Bhutada for boys.
+Lisa Krishania
+</template>
+</category>
+
+<category>
+<pattern>What are  the various clubs in our university</pattern>
+<template>
+Dance, Debate, Photography, Film making, NU Rangmanch, NU Sahas, Entrepreneur Cell, NU Srizan, Vividha, Mozilla etc.
+For more info about clubs:  https://www.niituniversity.in/campus/clubs
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE DIFFERENT HOUSES IN OUR UNIVERSITY</pattern>
+<template>
+1) Orange
+2) White
+3) Green
+</template>
+</category>
+
+<category>
+<pattern>WHO IS ABDUL MAZID</pattern>
+<template> He is an Assistant Professor who teaches Computer Network,Data Structures, C, C++ ,His email is Abdul.Mazid@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHO IS JETENDRA JOSHI</pattern>
+<template> He is an Assistant Professor who teaches Analog and Digital communication, Wireless communication, Microcontrollers and Communication Network.His email is  Jetendra.joshi@niituniversity.in
+</template>
+</category>
+
+<category>
+<pattern>WHO IS NARENDRA MODI</pattern>
+<template>
+He is the 16th and current prime minister of our country.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS SUPRATIK BANERJEE</pattern>
+<template> He is an Assistant Professor who's area of expertise is in Computer Science and Engineering.
+Qualification:	B.Tech Computer Science and Engineering [SMIT, Sikkim]
+M.Tech Advanced Networks [ABV-IIITM, Gwalior]
+Teaching Field:	Networks, Operating Systems, Programming
+Research Focus:	Medical Image Segmentation
+Consulting Area:	Networks
+Other Interests:	Reading biographies of important personalities
+</template>
+</category>
+
+<category>
+<pattern>WHO IS VIJAYANT PAWAR</pattern>
+<template> He is an Assistant Professor who's area of expertise is in Computer Science and Engineering.His Qualification is M.Tech(CSE).His email-id is Vijayant.Pawar@niituniversity.in. His interests are Playing cricket and volleyball,Listening  to music.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS SPINE</pattern>
+<template> Spine is the region which covers the region outside the tuck shop </template>
+</category>
+
+<category>
+<pattern>WHERE IS AAPNO GAON</pattern>
+<template> It is located near the Jaal Peelu located near the entrance gate of the university </template>
+</category>
+
+<category>
+<pattern>WHERE IS AAPNO GAON</pattern>
+<template> It is located near the Jaal Peelu located near the entrance gate of the university </template>
+</category>
+
+<category>
+<pattern>WHERE IS TCO</pattern>
+<template> It is located at the basement of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS ADMIN OFFICE</pattern>
+<template> It is located at the basement of AC1 </template>
+</category>
+
+<category>
+<pattern>WHERE IS ACADEMIC OFFICE</pattern>
+<template> It is located at the second floor of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS TUCK SHOP</pattern>
+<template> It is located at the spine right beside HOD </template>
+</category>
+
+<category>
+<pattern>WHERE IS HOD</pattern>
+<template> It is right beside the SBI ATM </template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND ATM</pattern>
+<template> There are two ATMs in the campus SBI is located near bowl beside HOD and ICICI is near the gym on the way to nescafe </template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND AN ATM</pattern>
+<template> There are two ATMs in the campus SBI is located near bowl beside HOD and ICICI is near the gym on the way to nescafe </template>
+</category>
+
+<category>
+<pattern>WHERE IS NESCAFE</pattern>
+<template> It is right beside the basket ball court </template>
+</category>
+
+<category>
+<pattern>WHERE IS BASKET BALL COURT</pattern>
+<template> It is located right beside nescafe </template>
+</category>
+
+<category>
+<pattern>WHERE IS TENNIS COURT</pattern>
+<template> It is adjacent to the old basket ball court </template>
+</category>
+
+<category>
+<pattern>WHERE IS CRICKET GROUND</pattern>
+<template> It is right opposite to the tennis court </template>
+</category>
+
+<category>
+<pattern>WHERE IS VOLLEYBALL COURT</pattern>
+<template> There are two courts one near PG1 and another beside cricket ground </template>
+</category>
+
+<category>
+<pattern>WHERE IS HOCKEY COURT</pattern>
+<template> It is behind cricket ground </template>
+</category>
+
+<category>
+<pattern>WHERE IS FOOTBALL COURT</pattern>
+<template> It is the same as the cricket ground and opposite to tennis court </template>
+</category>
+
+<category>
+<pattern>WHERE IS TT COURT</pattern>
+<template> It is in AC2 located at the ground floor </template>
+</category>
+
+<category>
+<pattern>WHERE IS LIBRARY</pattern>
+<template> It is located at the basement of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS IT LAB1</pattern>
+<template> It is in the first floor of AC1 </template>
+</category>
+
+<category>
+<pattern>WHERE IS FRL LAB</pattern>
+<template> It is in the first floor of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS IT LAB2</pattern>
+<template> It is in the first floor of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS PHYSICS LAB</pattern>
+<template> It is in the first floor of AC1 </template>
+</category>
+
+<category>
+<pattern>WHERE IS CHEMISTRY LAB</pattern>
+<template> It is in the ground floor of AC2 </template>
+</category>
+
+<category>
+<pattern>WHERE IS EG LAB</pattern>
+<template> It is in the first floor of AC1 </template>
+</category>
+
+<category>
+      <pattern>DO YOU KNOW WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>
+
+
+<category>
+      <pattern>TELL ME WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>
+
+<category>
+      <pattern>TELL ME ABOUT *</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>      
+</aiml>
