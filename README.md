@@ -3,8 +3,8 @@ Chatbot based on A.L.I.C.E
 
 
 ### Requirements
-    Python >= 2.7
-    Flask >= 0.10
+    Python 2.7 or later
+    Flask  1.0.0 or later
 
 ## Installation
 
